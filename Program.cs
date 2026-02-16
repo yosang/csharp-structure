@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Controllers;
+
+public class Program
+{
+    public static void Main()
+    {
+        var userController = new UserController();
+        userController.RegisterUser("Yosmel");
+    }
+}
