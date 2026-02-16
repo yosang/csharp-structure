@@ -6,7 +6,7 @@ namespace Controllers
     public class UserController
     {
         // Property with automatic readonly implementation
-        // Meaning it can be read from the outside, but only set from the sinde (constructor in this case)
+        // Meaning it can be read from the outside, but only set from the inside (constructor in this case)
         public UserService UserService { get; }
 
         // Constructor creates an instance of this controller and adds a message to the UserService event
